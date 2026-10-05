@@ -99,7 +99,7 @@ input[type="submit"]:hover {
 }
 
 input[type="reset"]:hover {
-    background-color: #555;
+    background-color: rgb(255, 0, 0);
 }
 
 
@@ -109,22 +109,16 @@ input:focus,
 select:focus,
 textarea:focus {
     outline: none;
-    border-color: #457b9d;
+    border-color: grey;
 }
-
-
 /* ===== Mobile ===== */
-
 @media (max-width: 650px) {
-
     body {
         padding: 15px;
     }
-
     form {
         width: 100%;
     }
-
     input[type="submit"],
     input[type="reset"] {
         width: 100%;
