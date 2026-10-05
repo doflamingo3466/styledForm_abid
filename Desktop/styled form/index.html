@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Abid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Reg. Form</h1>
+    <p>Please submit the form below to register</p>
+    <form>
+        <!-- ==================== NAME ==================== -->
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        </div>
+
+        <!-- ==================== EMAIL ==================== -->
+        <div class="form-group">
+
+            <label for="email">Email:</label>
+
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Enter your email"
+                   required>
+
+        </div>
+
+
+        <!-- ==================== AGE ==================== -->
+        <div class="form-group">
+
+            <label for="age">Age:</label>
+
+            <input type="number"
+                   id="age"
+                   name="age"
+                   placeholder="Enter your age"
+                   required>
+
+        </div>
+
+
+        <!-- ==================== DATE OF BIRTH ==================== -->
+        <div class="form-group">
+
+            <label for="dob">Date of Birth:</label>
+
+            <input type="date"
+                   id="dob"
+                   name="dob"
+                   required>
+
+        </div>
+
+
+        <!-- ==================== PHONE ==================== -->
+        <div class="form-group">
+
+            <label for="phone">Phone Number:</label>
+
+            <input type="tel"
+                   id="phone"
+                   name="phone"
+                   placeholder="Enter your phone number"
+                   required>
+
+        </div>
+
+
+        <!-- ==================== GENDER ==================== -->
+        <div class="form-group">
+
+            <label>Gender:</label><br>
+
+            <!-- Radio buttons use the same name,
+                 so only one option can be selected -->
+
+            <input type="radio"
+                   id="male"
+                   name="gender"
+                   value="male"
+                   required>
+
+            <label for="male">Male</label>
+
+
+            <input type="radio"
+                   id="female"
+                   name="gender"
+                   value="female">
+
+            <label for="female">Female</label>
+
+
+            <input type="radio"
+                   id="other"
+                   name="gender"
+                   value="other">
+
+            <label for="other">Other</label>
+
+        </div>
+
+
+        <!-- ==================== SKILLS ==================== -->
+        <div class="form-group">
+
+            <label>Skills:</label><br>
+
+            <!-- Checkboxes allow multiple selections -->
+
+            <input type="checkbox"
+                   id="html"
+                   name="skills"
+                   value="html">
+
+            <label for="html">HTML</label>
+
+
+            <input type="checkbox"
+                   id="css"
+                   name="skills"
+                   value="css">
+
+            <label for="css">CSS</label>
+
+
+            <input type="checkbox"
+                   id="javascript"
+                   name="skills"
+                   value="javascript">
+
+            <label for="javascript">JavaScript</label>
+
+
+            <input type="checkbox"
+                   id="react"
+                   name="skills"
+                   value="react">
+
+            <label for="react">React.js</label>
+
+        </div>
+
+
+        <!-- ==================== COURSE ==================== -->
+        <div class="form-group">
+
+            <label for="course">Course:</label>
+
+            <!-- Dropdown list -->
+            <select id="course"
+                    name="course"
+                    required>
+
+                <!-- Empty option forces the user
+                     to select an actual course -->
+                <option value="">Select a course</option>
+
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="react">React.js</option>
+
+            </select>
+
+        </div>
+
+
+        <!-- ==================== MESSAGE ==================== -->
+        <div class="form-group">
+
+            <label for="message">Message:</label><br>
+
+            <textarea id="message"
+                      name="message"
+                      placeholder="Enter your message"
+                      rows="3"></textarea>
+
+        </div>
+
+
+        <!-- ==================== ADDRESS ==================== -->
+        <div class="form-group">
+
+            <label for="address">Address:</label><br>
+
+            <textarea id="address"
+                      name="address"
+                      placeholder="Enter your address"
+                      rows="3"></textarea>
+
+        </div>
+
+
+        <!-- ==================== BUTTONS ==================== -->
+
+        <!-- Submit button sends the form -->
+        <input type="submit" value="Submit">
+
+        <!-- Reset button clears the form -->
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
