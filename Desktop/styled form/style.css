@@ -31,21 +31,16 @@ form {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-
-/* ===== Reusable Class ===== */
-
+/* Reusable Class */
 .form-group {
     margin-bottom: 20px;
 }
-
 label {
     font-weight: bold;
     color: black;
 }
 
-
-/* ===== Inputs, Select & Textarea ===== */
-
+/* Inputs, Select & Textarea */
 input[type="text"],
 input[type="email"],
 input[type="number"],
@@ -60,21 +55,20 @@ textarea {
     border-radius: 5px;
     box-sizing: border-box;
 }
-/* ===== ID Selector ===== */
+/* ID Selector */
 
 #name {
     border-left: 5px solid red;
 }
-/* ===== Radio & Checkbox ===== */
 
+/* Radio & Checkbox */
 input[type="radio"],
 input[type="checkbox"] {
-    width: auto;
+    width: 10px;
+    height: 10px;  
 }
 
-
-/* ===== Buttons ===== */
-
+/* Buttons */
 input[type="submit"],
 input[type="reset"] {
     padding: 15px 30px;
@@ -83,35 +77,31 @@ input[type="reset"] {
     color: white;
     cursor: pointer;
 }
-
 input[type="submit"] {
     background-color: navy;
 }
-
 input[type="reset"] {
     background-color: rgb(156, 17, 17);
     margin-left: 10px;
 }
 
-/* ===== Hover Effect ===== */
+/* Hover Effect */
 input[type="submit"]:hover {
     background-color: magenta;
 }
-
 input[type="reset"]:hover {
     background-color: rgb(255, 0, 0);
 }
 
-
-/* ===== Focus Effect ===== */
-
+/* Focus Effect */
 input:focus,
 select:focus,
 textarea:focus {
     outline: none;
     border-color: grey;
 }
-/* ===== Mobile ===== */
+
+/* Mobile */
 @media (max-width: 650px) {
     body {
         padding: 15px;
